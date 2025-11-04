@@ -139,7 +139,7 @@ for line in Path("examples/FlowLex_English_Sample.copr").read_text().splitlines(
     print(code, word, vector[:3])
 ```
 
-8. Contributing
+## 8. Contributing
 FlowLex is designed for open collaboration.
 You can contribute by:
 
@@ -152,7 +152,7 @@ Building visualization or editing tools.
 All contributions remain open and attributed under the repository license.
 
 
-9. License
+## 9. License
 Text and Data: CC BY-SA 4.0
 Code Examples: MIT License
 © 2025 Don Sauber
