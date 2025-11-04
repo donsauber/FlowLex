@@ -20,9 +20,6 @@ Each entry lives on one line:
 
 B1: run : to move quickly on foot : ASL_RUN : rhymes with sun = 0.12, -0.04, 0.33, 0.21, -0.10, 0.02, 0.18, -0.07
 
-yaml
-Copy code
-
 Everything before `=` is for humans.  
 Everything after `=` belongs to the machine.
 
@@ -44,8 +41,6 @@ Everything after `=` belongs to the machine.
 /examples/FlowLex_English_Sample.copr
 /tools/parser.py # minimal reference parser / validator
 
-pgsql
-Copy code
 
 ---
 
@@ -63,6 +58,8 @@ for line in Path("examples/FlowLex_English_Sample.copr").read_text().splitlines(
     code, word, alt, sign, speech = (fields + [None]*5)[:5]
     vector = np.fromstring(vec, sep=",")
     print(code, word, vector[:3])  # preview first 3 dims
+
+```
 Building on FlowLex
 Future directions:
 
